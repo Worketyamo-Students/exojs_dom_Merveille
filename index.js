@@ -82,13 +82,8 @@ while(ul11.firstElementChild){
 
 
 ///3parent de span
-
-const span=document.getElementById("span")
-   const parent=span.parentNode;
-  console.log(parent)  
-  
-  
-  //autre methode
+ 
+ 
 
 
   let tableparent=[span.parentElement]
@@ -98,7 +93,12 @@ const span=document.getElementById("span")
     tableparent.push(tableparent[i].parentElement)
 
   }
-
+//autre methode
+// const span=document.getElementById("span")
+//    const parent=span.parentNode;
+//   console.log(parent)  
+  
+  
 
 console.log(tableparent)
 
