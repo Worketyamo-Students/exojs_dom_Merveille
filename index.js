@@ -85,7 +85,22 @@ while(ul11.firstElementChild){
 
 const span=document.getElementById("span")
    const parent=span.parentNode;
-  console.log(parent)   
+  console.log(parent)  
+  
+  
+  //autre methode
+
+
+  let tableparent=[span.parentElement]
+
+
+  for(let i=0;i<1;i++){
+    tableparent.push(tableparent[i].parentElement)
+
+  }
+
+
+console.log(tableparent)
 
      ///4remplacement
 let div=document.getElementById("madiv")
