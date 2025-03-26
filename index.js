@@ -178,8 +178,8 @@ let divp=document.getElementById("parentdiv")
  divp.removeChild(p2)
 
 //5 copier un element 
-
-let temp3=p1.cloneNode(true)
+let p3=document.getElementById("p3")
+let temp3=p3.cloneNode(true)
 
 divp.appendChild(temp3)
 
